@@ -1,0 +1,159 @@
+/* CAROUSEL */
+
+.carousel-caption-top {
+    position: absolute;
+    right: 15%;
+    top: 1rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 768px;
+    min-width: auto;
+}
+.carousel-item {
+    height: 768px;
+}
+
+.carousel-item-1 {
+    background: url(img/car1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item-2 {
+    background: url(img/car2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item-3 {
+    background: url(img/car3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ABOUT */
+.about i.bi {
+    font-size: 40px;
+}
+
+.about img.photo {
+    border: 15px solid #f3f3f3;
+}
+
+/* TEAM */
+
+.team .team-box {
+  text-align: center;
+  padding: 40px 20px 30px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+.team .team-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.team .team-box h4 a {
+  color: #124265;
+  transition: ease-in-out 0.3s;
+}
+
+.team .team-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.team .team-box img {
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+.team .team-box:hover {
+  /*border-color: #fff;*/
+  border-color: #eee;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.16);
+}
+
+/* FOOTER */
+#footer {
+    color: #444444;
+    font-size: 14px;
+    background: #f8fbfe;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    padding: 30px 0 30px 0;
+  }
+
+#footer .footer-right {
+    color: #808080;
+}
+
+#footer .footer-right a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#footer .footer-right a:hover {
+    text-decoration: underline;
+}
+
+ 
+/* APPLICATION */
+.application a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.application a:hover {
+    text-decoration: none;
+}
+
+/* BACK TO TOP */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 20px;
+    bottom: 20px;
+    z-index: 996;
+    background: #666;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    transition: all 0.4s;
+  }
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  .back-to-top:hover {
+    background: #333;
+    color: #fff;
+  }
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* SECTION */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+  
+.section-bg {
+    background-color: #f8f8f8;
+}
