@@ -1,16 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Letní zážitkový kurz pro mladé, kterým není lhostejný svět kolem sebe.">
+        <meta name="keywords" content="Halahoj, zážitkový kurz, pštros, rozvoj, mládež">
+        <meta name="author" content="Tomáš Protivínský">
+
         <title>Nebuď pštros.</title>
+        
+        <!--
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.min.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+        -->
+
+        <link href="jsdelivr/bootstrap.min.css" rel="stylesheet">
+        <script src="jsdelivr/bootstrap.bundle.min.js"></script>
+        <link href="jsdelivr/bootstrap-icons.min.css" rel="stylesheet">
 
         <link href="style.css" rel="stylesheet">
 
     </head>
+    
     <body>
 
         <!-- NAVIGATION -->
@@ -136,7 +148,7 @@
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><a href="http://www.halahoj.org" target="_blank"><img src="img/halahoj-black.gif" alt="" class="img-fluid"></a></div>
                     <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12" style="display: flex">
                         <div class="mt-auto mb-auto">
-                            Studentský klub Katolického gymnázia nabízí již 18 let zajímavý program nejrůznějších volnočasových aktivit pro děti a mládež, rozšiřující jejich všestranné vědomosti, dovednosti, a pomáhá jim vyrůst v samostatné a zodpovědné jedince.
+                            <a href="http://www.halahoj.org" target="_blank">Studentský klub Katolického gymnázia Halahoj</a> nabízí již 18 let zajímavý program nejrůznějších volnočasových aktivit pro děti a mládež, rozšiřující jejich všestranné vědomosti, dovednosti, a pomáhá jim vyrůst v samostatné a zodpovědné jedince.
                         </div>
                     </div>
                 </div>
@@ -148,66 +160,70 @@
 
         <!-- TEAM -->
         <section id="team" class="team section-bg" style="margin-bottom: -30px">
-            <div class="container" data-aos="fade-up">
+            <div class="container padding" data-aos="fade-up">
 
                 <div class="section-title">
                     <h1 class="text-center display-2 mt-4">Náš tým</h1>
                 </div>
 
-                <div class="row">
+                <div class="row padding">
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="team-box">
-                            <div class="team-img">
-                                <img src="img/vojta.jpg" class="img-fluid" alt="">
+                        <div class="card">
+                            <img class="card-img-top" src="img/vojta.jpg">
+                            <div class="card-body">
+                                <h4>Vojta</h4>
+                                <p>Nejsem pštros! Ale protože ve své práci chrlím vodu na plameny a ve svém volném čase s pomocí kayaku křižuji proudy nejrůznějších řek, připomínám spíše vodního dráčka. A jen tak nějaké zranění mě také nezastaví!</p>                                                        
                             </div>
-                            <h4>Vojta</h4>
-                            <p>Nejsem pštros! Ale protože ve své práci chrlím vodu na plameny a ve svém volném čase s pomocí kayaku křižuji proudy nejrůznějších řek, připomínám spíše vodního dráčka. A jen tak nějaké zranění mě také nezastaví!</p>                    
                         </div>    
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="team-box">
-                            <div class="team-img">
-                                <img src="img/monca.jpg" class="img-fluid" alt="">
+                        <div class="card">
+                            <img class="card-img-top" src="img/monca.jpg">
+                            <div class="card-body">
+                                <h4>Monča</h4>
+                                <p>Nejsem pštros ale Volavka popelavá s hlavou stále v oblacích. 
+                                    Přestože se často pohybuji v přítomnosti řek a vodáků, doma jsem spíše v korunách stromů či na vrcholcích skal. A ačkoli bydlím už nějakou dobu v Olomouci, ráda se vracívám za rodinou a kamarády do svého rodného hnízda v Třebíči.</p>                    
                             </div>
-                            <h4>Monča</h4>
-                            <p>Nejsem pštros ale Volavka popelavá s hlavou stále v oblacích. 
-                                Přestože se často pohybuji v přítomnosti řek a vodáků, doma jsem spíše v korunách stromů či na vrcholcích skal. A ačkoli bydlím už nějakou dobu v Olomouci, ráda se vracívám za rodinou a kamarády do svého rodného hnízda v Třebíči.</p>                    
                         </div>    
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="team-box">
-                            <div class="team-img">
-                                <img src="img/rozum.jpg" class="img-fluid" alt="">
-                            </div>            
-                            <h4>Rozum</h4>
-                            <p>Nejsem pštros, protože jsem Plameňák. Tedy čundrák milující plameny i vodu (čti řeku Sázavu). Mám rád růžovou a radši budu stát hodiny na jedné noze ve vodě, než abych někam letěl.</p>                    
+                        <div class="card">
+                            <img class="card-img-top" src="img/rozum.jpg">
+                            <div class="card-body">
+                                <h4>Rozum</h4>
+                                <p>Nejsem pštros, protože jsem Plameňák. Tedy čundrák milující plameny i vodu (čti řeku Sázavu). Mám rád růžovou a radši budu stát hodiny na jedné noze ve vodě, než abych někam letěl.</p>                    
+                            </div>
                         </div>    
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="team-box">
-                            <div class="team-img">
-                                <img src="img/opi.jpg" class="img-fluid" alt="">
+                        <div class="card">
+                            <img class="card-img-top" src="img/opi.jpg">
+                            <div class="card-body">
+                                <h4>Opi</h4>
+                                <p>Nejsem pštros, ale housenka. Teď na to sice nevypadám, ale jednou za mě bude krásný motýl. Snad hned poté, co dodám opožděný medailonek.</p>
                             </div>
-                            <h4>Opi</h4>
-                            <p>Nejsem pštros, ale housenka. Teď na to sice nevypadám, ale jednou za mě bude krásný motýl. Snad hned poté, co dodám opožděný medailonek.</p>
                         </div>    
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="500">
-                        <div class="team-box">
-                            <div class="team-img">
-                                <img src="img/renca.jpg" class="img-fluid" alt="">
+                        <div class="card">
+                            <img class="card-img-top" src="img/renca.jpg">
+                            <div class="card-body">
+                                <h4>Renča</h4>
+                                <p>Já jako jediná skutečně jsem pštros s hlavou v písku, protože jsem ještě nedodala fotku a Špunt ani žádnou jinou nemá!</p>                    
                             </div>
-                            <h4>Renča</h4>
-                            <p>Já jako jediná skutečně jsem pštros s hlavou v písku, protože jsem ještě nedodala fotku a Špunt ani žádnou jinou nemá!</p>                    
                         </div>    
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="team-box">
-                            <div class="team-img">                            
-                                <img src="img/spunt.jpg" class="img-fluid" alt="">
+                        <div class="card">
+                            <img class="card-img-top" src="img/spunt.jpg">
+                            <div class="card-body">
+                                <h4>Špunt</h4>
+                                <p>Nejsem pštros, ale tučňák! Procházím se jen tak sem a tam ve fraku, naparuji se a tvářím se chytře. Tak chytře, že za chvilu třeba vymyslím i nějaký kloudnější medailonek.</p>
                             </div>
-                            <h4>Špunt</h4>
-                            <p>Nejsem pštros, ale tučňák! Procházím se jen tak sem a tam ve fraku, naparuji se a tvářím se chytře. Tak chytře, že za chvilu třeba vymyslím i nějaký kloudnější medailonek.</p>
                         </div>
                     </div>
                 </div>
@@ -215,6 +231,7 @@
             </div>
 
         </section>
+
 
         <!-- APPLICATION -->
         <section id="application" class="application">

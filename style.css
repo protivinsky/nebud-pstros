@@ -46,44 +46,60 @@
     border: 15px solid #f3f3f3;
 }
 
+/* APPLICATION */
+.about a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.about a:hover {
+    text-decoration: none;
+}
+
+
 /* TEAM */
 
-.team .team-box {
-  text-align: center;
-  padding: 40px 20px 30px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  border: 1px solid #eee;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+.team .card {
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
-.team .team-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
+.team .card h4 {
+    font-weight: 600;
+    margin: 6px 0 12px 0;
+    font-size: 22px;
 }
 
-.team .team-box h4 a {
-  color: #124265;
-  transition: ease-in-out 0.3s;
+.team .card h4 a {
+    color: #124265;
+    transition: ease-in-out 0.3s;
 }
 
-.team .team-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
+.team .card p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
-.team .team-box img {
-    margin-bottom: 10px;
-    border: 1px solid #eee;
+.team .card:hover {
+    border-color: #ccc;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.16);
 }
 
-.team .team-box:hover {
-  /*border-color: #fff;*/
-  border-color: #eee;
-  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.16);
+
+ 
+/* APPLICATION */
+.application a {
+    color: #000;
+    text-decoration: underline;
 }
+
+.application a:hover {
+    text-decoration: none;
+}
+
 
 /* FOOTER */
 #footer {
@@ -105,17 +121,6 @@
 
 #footer .footer-right a:hover {
     text-decoration: underline;
-}
-
- 
-/* APPLICATION */
-.application a {
-    color: #000;
-    text-decoration: underline;
-}
-
-.application a:hover {
-    text-decoration: none;
 }
 
 /* BACK TO TOP */
