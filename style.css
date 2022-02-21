@@ -1,3 +1,39 @@
+/* GENERAL */
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar-nav li:hover {
+    background-color: #444;
+}
+
+.navbar-brand {
+    font-size: 180%;
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
 /* CAROUSEL */
 
 .carousel-caption-top {
@@ -9,6 +45,11 @@
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 10px #000;
 }
 
 .carousel-item img {
@@ -42,7 +83,7 @@
     font-size: 40px;
 }
 
-.about img.photo {
+img.photo {
     border: 15px solid #f3f3f3;
 }
 
@@ -100,6 +141,12 @@
     text-decoration: none;
 }
 
+.application i.bi-arrow-down-circle-fill {
+    font-size: 140%;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
 /* FOOTER */
 #footer {
@@ -122,6 +169,17 @@
 #footer .footer-right a:hover {
     text-decoration: underline;
 }
+
+#footer .footer-github a {
+    font-size: 200%;
+    color: #ccc;
+    margin-bottom: -5rem;
+}
+
+#footer .footer-github a:hover {
+    color: #ddd;
+}
+
 
 /* BACK TO TOP */
 .back-to-top {
@@ -155,10 +213,14 @@
 /* SECTION */
 
 section {
-    padding: 60px 0;
+    padding: 80px 0;
     overflow: hidden;
 }
-  
+ 
+.section-above {
+    margin-bottom: -50px;
+}
+
 .section-bg {
     background-color: #f8f8f8;
 }

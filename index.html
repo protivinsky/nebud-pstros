@@ -21,6 +21,8 @@
         
         <link href="style.css" rel="stylesheet">
 
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
     </head>
 
     <body>
@@ -28,7 +30,7 @@
         <!-- NAVIGATION -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#">Nebuď pštros.</a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png"> Nebuď pštros.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -53,7 +55,7 @@
         
 
         <!-- IMAGE SLIDER -->
-        <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel" style="margin-bottom: -30px">
+        <div id="slider" class="carousel slide carousel-fade section-above" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
@@ -104,7 +106,7 @@
         </div>
 
         <!-- ABOUT -->
-        <section id="about" class="about" style="margin-bottom: -30px">
+        <section id="about" class="about section-above">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <h1 class="text-center display-2 mt-4">O kurzu</h1>
@@ -159,7 +161,7 @@
         </section>
 
         <!-- TEAM -->
-        <section id="team" class="team section-bg" style="margin-bottom: -30px">
+        <section id="team" class="team section-bg section-above">
             <div class="container padding" data-aos="fade-up">
 
                 <div class="section-title">
@@ -182,7 +184,7 @@
                             <img class="card-img-top" src="img/monca.jpg">
                             <div class="card-body">
                                 <h4>Monča</h4>
-                                <p>Nejsem pštros ale Volavka popelavá s hlavou stále v oblacích. 
+                                <p>Nejsem pštros ale Volavka s hlavou stále v oblacích. 
                                     Přestože se často pohybuji v přítomnosti řek a vodáků, doma jsem spíše v korunách stromů či na vrcholcích skal. A ačkoli bydlím už nějakou dobu v Olomouci, ráda se vracívám za rodinou a kamarády do svého rodného hnízda v Třebíči.</p>                    
                             </div>
                         </div>    
@@ -222,7 +224,7 @@
                             <img class="card-img-top" src="img/spunt.jpg">
                             <div class="card-body">
                                 <h4>Špunt</h4>
-                                <p>Nejsem pštros, ale tučňák! Procházím se jen tak sem a tam ve fraku, naparuji se a tvářím se chytře. Tak chytře, že za chvilu třeba vymyslím i nějaký kloudnější medailonek.</p>
+                                <p>Nejsem pštros, ale zajíc. Přesně ten zajíc z úsloví: "mnoho psů, zajícova smrt". Vždy mě lákalo přiliš mnoho různých aktivit – zájmů, studií, sportů i dobrovolnických činností – a jen tak tak se jim stíhám aspoň trochu věnovat. Mrkví prosím nekrmit.</p>
                             </div>
                         </div>
                     </div>
@@ -239,12 +241,28 @@
                 <div class="section-title">
                     <h1 class="text-center display-2 mt-4">Přihlášení</h1>
                 </div>
-                <div class="text-center">
-                    <span>Počet účastníků je omezený na 24, proto s přihlášením neváhej!<br>
-                    Formuláře pro přihlášení na akci nalezneš na <a href="http://www.halahoj.org/tabor/" target="_blank">stránkách Halahoje</a>.<br>
-                    Máš-li nějaké otázky, můžeš kontaktovat Opi / Terezu Markovou, 736 262 582, <a href="mailto:tereza.markova@volny.cz" style="display: inline">tereza.markova@volny.cz</a>.</span>
+
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <b>Počet účastníků je omezený na 24, proto s přihlášením neváhej! Jak se přihlásit?</b>
+                        <br><br>
+                        Stáhni si přihlášku na <a href="http://www.halahoj.org/tabor/" target="_blank">stránkách Halahoje</a>.<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        Přihlášku vyplň.<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        Vyplněnou přihlášku pošli Opi / Tereze Markové.<br>
+                        <i class="bi bi-envelope"></i> <a href="mailto:tereza.markova@volny.cz" style="display: inline">tereza.markova@volny.cz</a>, <i class="bi bi-phone"></i> 736 262 582<br>
+                        <i class="bi bi-arrow-down-circle-fill"></i>
+                        A to je vše. Ozveme se Ti.<br><br>
+                    </div>
                 </div>
-             </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10 col-md-12"><img src="img/noc.jpg" alt="" class="img-fluid photo"></div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
         </section> 
 
         <!-- FOOTER -->
@@ -252,11 +270,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-                        <a href="http://www.halahoj.org" target="_blank"><img src="img/halahoj-white.gif" class="img-fluid"></a>
+                        <div class="pb-1"><a href="http://www.halahoj.org" target="_blank"><img src="img/halahoj-white.gif" class="img-fluid"></a></div>
                     </div>
-                    <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12 text-end footer-right" style="display: flex">
-                        <div class="mt-auto ms-auto">&copy; 2022&nbsp;&nbsp;code&design&nbsp;&nbsp;Tomáš Protivínský, <a href="mailto:tomas.protivinsky@gmail.com">tomas.protivinsky@gmail.com</a></div>
-                    </div>                    
+                    <div class="col-lg-9 col-md-8 col-sm-7 col-xs-10 text-end footer-right d-flex">
+                        <div class="mt-auto ms-auto pb-1">&copy; 2022&nbsp;&nbsp;code&design&nbsp;&nbsp;Tomáš Protivínský, <a href="mailto:tomas.protivinsky@gmail.com">tomas.protivinsky@gmail.com</a></div>
+                    </div>
+                    <div class="col-sm-1 col-xs-2 d-flex">
+                        <div class="mt-auto me-auto footer-github"><a href="https://github.com/protivinsky/nebud-pstros" target="_blank"><i class="bi bi-github"></i></a></div>
+                    </div>
                 </div>
             </div>
         </footer>
