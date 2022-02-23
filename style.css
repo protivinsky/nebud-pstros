@@ -101,6 +101,18 @@ img.photo {
 }
 
 
+.about li {
+    display: block;
+}
+
+.about li:before {
+    content: "\F4F5";
+    font-family: bootstrap-icons!important;
+    float: left;
+    margin-top: 1px;
+    margin-left: -22px;
+}
+
 /* TEAM */
 
 .team .card {
@@ -225,5 +237,5 @@ section {
 }
 
 .section-bg {
-    background-color: #f8f8f8;
+    background-color: #f6f6f6;
 }
