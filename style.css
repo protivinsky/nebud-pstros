@@ -101,16 +101,20 @@ img.photo {
 }
 
 
-.about li {
+.about .description li {
     display: block;
 }
 
-.about li:before {
+.about .description li:before {
     content: "\F4F5";
     font-family: bootstrap-icons!important;
     float: left;
     margin-top: 1px;
     margin-left: -22px;
+}
+
+.about .description p {
+    text-align: justify;
 }
 
 /* TEAM */
